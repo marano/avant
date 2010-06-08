@@ -128,7 +128,7 @@ public abstract class AvantAbstractModel<T> implements NotifiableList {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "<" + getClasse().getSimpleName() + ">";
+        return this.getClass().getSimpleName();//+ "<" + getClasse().getSimpleName() + ">";
     }
 
     protected void aposFiltrar(List<T> objetosFiltrados) {
